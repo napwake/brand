@@ -88,7 +88,7 @@
   --radius-lg: 8px;
   --radius-xl: 12px;
   --radius-round: 50%;
-  --focus-ring: {'light': '0 0 0 2px #f8f8f5, 0 0 0 4px #14695f', 'dark': '0 0 0 2px #0f1716, 0 0 0 4px #f5b53f'};
+  --focus-ring: 0 0 0 2px #f8f8f5, 0 0 0 4px #14695f;
   --shadow-window: 0 10px 30px rgba(0,0,0,.18);
   --shadow-print: 0 3px 5px rgba(0,0,0,.25);
   --light-wedge: 0.55;
@@ -152,6 +152,7 @@
     --launch-floor: var(--scene-floor);
     --launch-frame: var(--scene-frame);
     --hanger-edge: #24323a;
+    --focus-ring: 0 0 0 2px #0f1716, 0 0 0 4px #f5b53f;
 }
 }
 :root[data-theme="dark"] {
@@ -199,4 +200,5 @@
   --launch-floor: var(--scene-floor);
   --launch-frame: var(--scene-frame);
   --hanger-edge: #24323a;
+  --focus-ring: 0 0 0 2px #0f1716, 0 0 0 4px #f5b53f;
 }
