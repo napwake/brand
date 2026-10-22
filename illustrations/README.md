@@ -1,6 +1,6 @@
 # The night porter
 
-Napwake's night porter: his poses, the door scenes (closed and dark is asleep, held ajar with amber light is waking up, open and lit green is awake) and the stickers.
+Napwake's night porter: his poses (`poses/`), the door glyphs (`doors/`: closed and dark is asleep, held ajar with amber light is waking up, open and lit green is awake, a pinned note is needs you), six UI icons (`icons/`), scenes (`scenes/`) and a sticker (`stickers/`). How to use each: [the guidelines](../guidelines/night-porter.md).
 
 Licensed [CC BY 4.0](LICENSE): use them anywhere, even commercially, and change them, as long as you give credit: "Night porter illustrations by Napwake, CC BY 4.0", linked to https://github.com/napwake/brand.
 
