@@ -1,6 +1,6 @@
 # Napwake trademarks
 
-"Napwake", the Napwake logo and wordmark, and the night porter's head as used in the logo are trademarks of Tobi Okedeji. This page says how you may use them. It doesn't change the code's Apache 2.0 licence (which, in section 6, grants no trademark rights) or the illustrations' CC BY 4.0 licence (which, in section 2(b)(2), doesn't either).
+"Napwake", the Napwake logo and wordmark, and the doorman's head as used in the logo are trademarks of Tobi Okedeji. This page says how you may use them. It doesn't change the code's Apache 2.0 licence (which, in section 6, grants no trademark rights) or the illustrations' CC BY 4.0 licence (which, in section 2(b)(2), doesn't either).
 
 ## You may
 - Use the name to talk about Napwake: in articles, talks, tutorials, comparisons and videos.

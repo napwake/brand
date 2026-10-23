@@ -1,6 +1,6 @@
 # The logo
 
-**There is one logo, and it is always the same drawing in the same colours.** It is the porter's head and shoulders under his top hat (the symbol) beside the drawn wordmark, `napwake`. A small set of approved files covers every place it goes; nothing else is the logo. Never redraw it, re-colour it, re-pose it or retype it. The porter's poses are illustrations, never the logo.
+**There is one logo, and it is always the same drawing in the same colours.** It is the doorman's head and shoulders under his top hat (the symbol) beside the drawn wordmark, `napwake`. A small set of approved files covers every place it goes; nothing else is the logo. Never redraw it, re-colour it, re-pose it or retype it. The doorman's poses are illustrations, never the logo.
 
 ## The approved versions
 
@@ -13,7 +13,7 @@ Every file is in [`../logo/`](../logo/). A `-dark` file is for dark grounds.
 | **The mark alone** (symbol) | `symbol.svg` | `symbol-dark.svg` | Small spaces and places that already say the name: icons from 32 px, the avatar. |
 | **One colour** | `lockup-horizontal-mono-ink.svg`, `lockup-stacked-mono-ink.svg`, `symbol-mono-ink.svg` (Night) | the same names in `-mono-paper` (Paper) | Wherever full colour can't print or would clash: photos, coloured grounds, one-colour print, embossing. |
 | One colour on Coat | | `symbol-on-coat.svg` | On the brand's teal, Coat: Paper, with the eyes cut in Coat. |
-| Wordmark alone | `wordmark.svg` | `wordmark-dark.svg` | Only where the porter is already in the picture: the README header, the social preview, the launch card. |
+| Wordmark alone | `wordmark.svg` | `wordmark-dark.svg` | Only where the doorman is already in the picture: the README header, the social preview, the launch card. |
 | Avatar | `avatar-500.png` (on Lamp) | `avatar-500-dark.png` (on Night) | The GitHub organization avatar and other circle crops. Everything that matters sits inside the inscribed circle. SVG sources beside them. |
 | Favicon | `favicon-16.svg` | `favicon-16-dark.svg` | Browser tabs: the 16-pixel cut, drawn on whole pixels, not scaled. `favicon.svg` holds both halves and switches with `prefers-color-scheme`. `favicon-32.svg` is the symbol for 32 px. |
 | One-colour small mark | `mark-24.svg` | | 24 px and below in one colour: the waking page's footer, the scan report and status page. |
@@ -26,7 +26,7 @@ Every file is in [`../logo/`](../logo/). A `-dark` file is for dark grounds.
 
 ## Clear space
 
-Keep clear, on every side of a lockup, the height of the porter's hat at that size: about a third of the symbol's height. Nothing else, text included, goes inside it. [`logo-rules/clear-space.svg`](logo-rules/clear-space.svg) shows it.
+Keep clear, on every side of a lockup, the height of the doorman's hat at that size: about a third of the symbol's height. Nothing else, text included, goes inside it. [`logo-rules/clear-space.svg`](logo-rules/clear-space.svg) shows it.
 
 ## Minimum sizes
 
@@ -64,4 +64,4 @@ The misuse files in [`logo-rules/`](logo-rules/) show what not to do. Never use 
 
 ## Marks and licences
 
-"Napwake", the logo and wordmark, and the porter's head as used in the logo are the project's marks, owned by Tobi Okedeji and governed by [TRADEMARKS.md](../TRADEMARKS.md): use them unchanged to refer to Napwake, never as the name or logo of something else. The porter's illustrations (poses, door scenes, stickers) are licensed [CC BY 4.0](../illustrations/LICENSE), as the Go gopher is, so anyone can use them with the credit "Night porter illustrations by Napwake, CC BY 4.0".
+"Napwake", the logo and wordmark, and the doorman's head as used in the logo are the project's marks, owned by Tobi Okedeji and governed by [TRADEMARKS.md](../TRADEMARKS.md): use them unchanged to refer to Napwake, never as the name or logo of something else. The doorman illustrations (poses, door scenes, stickers) are licensed [CC BY 4.0](../illustrations/LICENSE), as the Go gopher is, so anyone can use them with the credit "Doorman illustrations by Napwake, CC BY 4.0".

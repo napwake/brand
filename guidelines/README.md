@@ -10,12 +10,12 @@ It's for platform and infrastructure engineers who run non-production environmen
 
 ## The idea
 
-Napwake is **the night porter** of your non-production cluster: he lets the rooms nobody's using sleep, holds the door for the first request, and wakes the right room. Every room is an arched door. Shut and dark is asleep; ajar with amber light is waking up; open and lit green is awake. Anyone reads it at a glance, Kubernetes or not, so every picture carries one idea in plain words.
+Napwake lets the rooms nobody's using in your non-production cluster sleep. When the first request knocks, **the doorman** holds the door and wakes the right room. Every room is an arched door. Shut and dark is asleep; ajar with amber light is waking up; open and lit green is awake. Anyone reads it at a glance, Kubernetes or not, so every picture carries one idea in plain words.
 
 Before you make anything, read the section for it:
 
 - **[The logo](logo.md):** the one logo, its approved versions, clear space, minimum sizes, misuses.
-- **[The night porter](night-porter.md):** how he's built, his eleven poses and when to use each, what he does and never does, the finish.
+- **[The doorman](doorman.md):** who he is and the one rule for every caption, how he's built, his eleven poses and when to use each, what he never does, the finish.
 - **[Using the brand](using-the-brand.md):** talks, posts, slides and community projects.
 
 ## Voice
@@ -37,7 +37,7 @@ Everything Napwake says follows six rules.
 
 > Your first request waits at the door while the workload starts. Usually that's a slow response, not an error; the docs say when it isn't. (README)
 
-> Staging sleeps. The night porter doesn't. (the sticker: true of Napwake, whose operator and doorman keep running while workloads are paused)
+> Staging sleeps. The doorman doesn't. (the sticker: literally true, since the doorman keeps running while workloads are paused)
 
 **Words.** Say "pause idle" and "sleep" and "wake": the words users use. Don't call Napwake "scale to zero" or "hibernate"; in Kubernetes those mean other things. Write "Napwake" in text, `napwake` in commands; the wordmark is lowercase. Headings in sentence case. Dates absolute.
 
@@ -46,19 +46,19 @@ Everything Napwake says follows six rules.
 | State | In pictures and pages anyone reads | In the CLI and reference docs | Its door |
 |---|---|---|---|
 | asleep | asleep | paused | shut and dark, a slate leaf, a brass knob |
-| waking | waking up | resuming | ajar, amber room light and a wedge on the floor, the porter's hand on it |
+| waking | waking up | resuming | ajar, amber room light and a wedge on the floor, the doorman's hand on it |
 | awake | awake | running | wide open, the room lit green, a green lamp over it |
 | error | needs you | needs attention | shut, a note pinned on it |
 
 - Use the plain words in scenes, captions, the waking page, launch posts and swag.
 - Use the product words in `kubectl napwake` output, reference docs, API fields and anything a user types or searches for.
 - Where both appear, plain first: "Asleep · paused".
-- The character is **the night porter**. The doorman is a real Napwake component, the Service-level proxy that holds requests; never call the porter the doorman, and never say he is a Deployment.
+- The character is **the doorman**, and he is Napwake's doorman: the real component, a Service-level proxy, that holds the first request to a paused workload, wakes it, and shows browsers the waking page until it's Ready. When copy names him, he does only that. Everything else Napwake does is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms".
 
 ## Doors as states
 
 - Every room is an arched door: round top, flat bottom, the same arch as the wordmark's counters.
-- Asleep: shut, slate (`glyph-slate`, `scene-leaf`). Waking up: ajar, the room in Lamp light (`scene-room-amber`), an amber wedge on the floor, and the only door with the porter's hand on it. Awake: wide open, the room lit green (`scene-room-green`), a green lamp over the door (`scene-green`). Needs you: shut, a note pinned on it (`note-pin`); a note, never an alarm bell, and it says what to fix.
+- Asleep: shut, slate (`glyph-slate`, `scene-leaf`). Waking up: ajar, the room in Lamp light (`scene-room-amber`), an amber wedge on the floor, and the only door with the doorman's hand on it. Awake: wide open, the room lit green (`scene-room-green`), a green lamp over the door (`scene-green`). Needs you: shut, a note pinned on it (`note-pin`); a note, never an alarm bell, and it says what to fix.
 - Use the door glyphs in [`../illustrations/doors/`](../illustrations/doors/) (`door-<state>.svg` on light, `door-<state>-dark.svg` on dark).
 - Always put the state's word beside its door. Colour is never the only signal: waking's amber outline is 1.71:1 on Paper, and awake and error are equally light.
 - His face follows the rooms he minds: resting his eyes when every room is asleep, heavy lids on a quiet night, on duty by default, wide awake only when something needs you.
@@ -66,14 +66,14 @@ Everything Napwake says follows six rules.
 
 ## Colour
 
-A night porter's coat, the light from a door, and the dark corridor.
+A doorman's coat, the light from a door, and the dark corridor.
 
-- **Coat** `coat` #14695F is the brand's teal. **Lamp** `lamp` #F5B53F is the warm light. **Night** `night` #0F1716 and **Paper** `paper` #F8F8F5 are dark and light. **Coat deep** `coat-deep`, **Face** `face`, **Hat** `hat` and **Mitten** `mitten` belong to the porter.
+- **Coat** `coat` #14695F is the brand's teal. **Lamp** `lamp` #F5B53F is the warm light. **Night** `night` #0F1716 and **Paper** `paper` #F8F8F5 are dark and light. **Coat deep** `coat-deep`, **Face** `face`, **Hat** `hat` and **Mitten** `mitten` belong to the doorman.
 - Pages: `bg` for the page, `surface` for raised cards, `text` for copy, `muted` for secondary text, `line` for hairlines. Set body copy in `text` on `bg` or `surface`.
 - Actions: `action` (Coat on light, Lamp on dark) for links, buttons and the focus ring. Text on an action fill is `on-action` (Paper on Coat, Night on Lamp), never plain white.
 - Lamp is a fill on light, never text (1.71:1 on Paper). Amber text on light is `accent-text` #8A5A00.
 - State words take `asleep`, `waking`, `awake` and `error`. Use them for states only, never for decoration.
-- The porter has his own tokens (`porter-*`), lighter in dark so he reads on Night. Scenes use `scene-*`; door glyphs use `glyph-*`.
+- The doorman has his own tokens (`doorman-*`), lighter in dark so he reads on Night. Scenes use `scene-*`; door glyphs use `glyph-*`.
 - Every token in [`../tokens/tokens.json`](../tokens/tokens.json) has a note that says where it goes and its contrast on the grounds it sits on; [`tokens.css`](../tokens/tokens.css) has them as CSS variables, light and dark. Three pairs miss 4.5:1 and are flagged in their notes: `faint` on light, state words on the light scene floor, and two small labels on printed swag.
 - No colours outside `tokens.json`. Never a gradient, and never purple or blue-to-purple.
 
@@ -94,10 +94,10 @@ A night porter's coat, the light from a door, and the dark corridor.
 
 ## Illustration
 
-- Corridors, lobbies and doorways at night: the porter, doors, a floor. Props only when the job needs them: a list, a clipboard, a switch, a watch, a note.
+- Corridors, lobbies and doorways at night: the doorman, doors, a floor. Props only when the job needs them: a list, a clipboard, a switch, a watch, a note.
 - One idea per drawing, captioned in plain words. One true joke at most.
 - Light comes from doors. The far side of the coat falls into shade; his shadow falls away from the door.
-- Illustrations get the print finish: a slight wobble on every edge and a grain inside the fills ([night-porter.md](night-porter.md#the-finish) has the filter). Never on the logo, the favicon, door glyphs or UI icons.
+- Illustrations get the print finish: a slight wobble on every edge and a grain inside the fills ([doorman.md](doorman.md#the-finish) has the filter). Never on the logo, the favicon, door glyphs or UI icons.
 - No coins, bins, clouds, moons or Zzz, and nothing being thrown out: Napwake never deletes anything.
 - Illustrations go on pages, cards, empty states and release notes, never inside documentation steps.
 
@@ -122,13 +122,13 @@ A night porter's coat, the light from a door, and the dark corridor.
 - Never colour alone: every state carries its word and its door's shape, and the terminal adds a glyph and bold.
 - Keyboard focus is `focus-ring`: a 2 px gap in the page colour, then 2 px of `action` (6.14:1 on light, 10.02:1 on dark).
 - Every surface ships light and dark (logos, glyphs, icons, cards, the docs, the waking page) and follows `prefers-color-scheme`.
-- Alt text says what the picture shows, in plain words: "The night porter holds the door of a waking room; the rooms on either side are asleep or awake."
+- Alt text says what the picture shows, in plain words, by the doorman's rule: "The doorman holds the door of a waking room; the rooms on either side are asleep or awake." Any other job is Napwake's, even with him in the picture: "Napwake turns off the lights in staging, which nobody has used for an hour."
 
 ## The files
 
 | Where | What | Licence |
 |---|---|---|
 | [`../logo/`](../logo/) | The logo, wordmark, mark, avatar and favicons | [TRADEMARKS.md](../TRADEMARKS.md) |
-| [`../illustrations/`](../illustrations/) | The porter's poses, door glyphs, UI icons, scenes and a sticker | [CC BY 4.0](../illustrations/LICENSE) |
+| [`../illustrations/`](../illustrations/) | The doorman's poses, door glyphs, UI icons, scenes and a sticker | [CC BY 4.0](../illustrations/LICENSE) |
 | [`../tokens/`](../tokens/) | Every colour, type style, spacing step, radius, shadow and timing, as JSON and as CSS | CC BY 4.0, like the illustrations |
 | [`logo-rules/`](logo-rules/) | Clear space, construction and misuse drawings | [TRADEMARKS.md](../TRADEMARKS.md) |
