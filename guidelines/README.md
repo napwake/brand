@@ -2,7 +2,7 @@
 
 Napwake pauses idle Kubernetes workloads in staging, preview and dev, and wakes them on the first request. It never deletes a workload or its data. It's open source (Apache 2.0): an operator, a `kubectl napwake` plugin, a Helm chart, and docs at napwake.dev.
 
-It's for platform and infrastructure engineers who run non-production environments on their own Kubernetes clusters, behind a VPN, SSO or an IP allowlist. Environments open to the internet get woken by crawlers, so Napwake isn't for them.
+It's for platform and infrastructure engineers who run non-production environments on their own Kubernetes clusters. Private ones, behind a VPN, SSO or an IP allowlist, wake on the first request. Public ones turn that off, so robots can't wake them, and wake on the forecast, from CI or with one command.
 
 **The headline:** Non-prod environments that sleep when nobody's using them, and wake when someone does.
 
@@ -25,7 +25,7 @@ Everything Napwake says follows six rules.
 1. **Say what it does, in the reader's words.** Not "Intelligent Kubernetes workload lifecycle management"; "Pauses idle staging workloads and wakes them on the first request."
 2. **A terminal snippet over an adjective.** Not "Effortless setup"; "`kubectl napwake scan` shows what's idle, with nothing installed."
 3. **Every number carries its source or its assumption.** Not "Workloads sit idle 60-80% of the time"; "A team that works 10 hours a day, five days a week, uses staging 50 of 168 hours. The other 70%, it's idle."
-4. **Say what it won't do.** "It never deletes a workload or its data." "Environments open to the internet get woken by crawlers; put them behind a VPN or SSO."
+4. **Say what it won't do.** "It never deletes a workload or its data." "It can't tell a crawler from a person, so on the public internet, turn wake on request off."
 5. **Name the alternatives fairly.** Headlines, the README and launch posts lead with what Napwake does best and never claim what it doesn't do. Comparison pages and replies say plainly when another tool fits better: "Want everything off at 8pm whatever happens? kube-green does that well."
 6. **Calm, not cute.** No "magic", "seamless" or "intelligent"; no exclamation marks or emoji in the docs; the sleep metaphor once per page, not in every line. Not "Put your cluster to sleep and watch the savings roll in!"; "Paused workloads free the CPU and memory they requested; your node autoscaler turns that into a smaller bill."
 
