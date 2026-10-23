@@ -1,8 +1,8 @@
 # The doorman
 
-He is **Napwake's doorman**. In the product, the doorman is a real component: it holds the first request to a paused workload, wakes the workload, and shows browsers the waking page until it's Ready. The character is that doorman, drawn as a person. Copy calls him **the doorman**. He has no name, like the Go gopher.
+He is **Napwake's doorman**. In the product, the doorman is a real component: it holds the first request to a paused workload, wakes the workload, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first: a browser gets a Wake it button, and only a person's click wakes it. The character is that doorman, drawn as a person. Copy calls him **the doorman**. He has no name, like the Go gopher.
 
-**One rule keeps every caption true: when copy names the doorman, he only holds the door or wakes a workload on the first request.** Everything else Napwake does (pausing, the forecast, scan, dry-run, the activity clock, conditions) is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms", never "the doorman turns off the lights". He is never another component.
+**One rule keeps every caption true: when copy names the doorman, he only holds the door, wakes a workload on the first request, or asks before waking it.** Everything else Napwake does (pausing, the forecast, scan, dry-run, the activity clock, conditions) is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms", never "the doorman turns off the lights". He is never another component.
 
 ## Personality: dependable, dry, unflappable
 
@@ -13,11 +13,12 @@ He is **Napwake's doorman**. In the product, the doorman is a real component: it
 
 ## Every drawing is one thing Napwake does
 
-Every drawing shows one thing Napwake really does. Only the door is the doorman's job, so only its caption names him; the others say what Napwake does.
+Every drawing shows one thing Napwake really does. Only the door is the doorman's job, holding it and asking at it, so only those captions name him. The others say what Napwake does.
 
 | The drawing | Caption it as | What Napwake does |
 |---|---|---|
 | Holding a door ajar, amber light on the floor | "The doorman holds the door while staging wakes." | Wake on request: the doorman holds the request, or shows browsers the waking page, until the workload is Ready. |
+| A hand flat on a shut door, turned to you, one brow up | "The doorman asks before waking it." | Click to wake: on a public preview, a browser gets a Wake it button, and only a person's click wakes it. Robots are turned away. |
 | A hand on the light switch of an empty room | "Napwake turns off the lights in empty rooms." | Pause: after `idleAfter` with no activity, the workload is scaled to zero. Nothing in the room is thrown out. |
 | Reading the morning list | "Napwake wakes rooms before the team arrives." | `autoResume`: the forecast wakes workloads 15 minutes before a busy hour. |
 | Walking the corridor with a clipboard | "Napwake checks which rooms are empty." | `kubectl napwake scan`, with nothing installed, and dry-run. |
@@ -26,14 +27,15 @@ Every drawing shows one thing Napwake really does. Only the door is the doorman'
 
 **He never** blocks a door, holds money, bins, crushes or erases anything (Napwake never deletes a workload or its data), carries a badge or a weapon, or wears a pillbox hat or a bow tie. He faces front, left or right; never from behind, never lying down. No coins in his hands: dark rooms free what they requested, and the node autoscaler turns that into a smaller bill.
 
-## The eleven poses
+## The twelve poses
 
 Each pose is a real job or a screen Napwake has to fill. The files are [`../illustrations/poses/doorman-<pose>.svg`](../illustrations/poses/): 240 × 262, light palette, flat (add the finish when you place one in an illustration). Caption each in plain words, by the rule above.
 
 | File | Pose | Use it for |
 |---|---|---|
 | `doorman-duty` | On duty | Napwake, running. The default: about pages, the sticker, the awake door hanger. |
-| `doorman-door` | Holds the door | The doorman waking a room when someone knocks: the waking page, the README header, the launch card, the docs hero. The only pose at a waking door, and the only one whose caption gives him the job. |
+| `doorman-door` | Holds the door | The doorman waking a room when someone knocks: the waking page, the README header, the launch card, the docs hero. The only pose at a waking door. |
+| `doorman-ask` | Asks at the door | The doorman asking before he wakes a room: the asleep page, with its Wake it button, for a public preview. With Holds the door, the only poses whose captions give him the job. |
 | `doorman-lights` | Lights out | Napwake putting an empty room to sleep: pausing. |
 | `doorman-list` | The morning list | Napwake waking rooms before the team arrives: `autoResume`, the forecast. |
 | `doorman-rounds` | Does the rounds | Napwake checking which rooms are empty: `scan`, dry-run. |
