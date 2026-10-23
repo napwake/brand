@@ -15,7 +15,7 @@ Napwake lets the rooms nobody's using in your non-production cluster sleep. When
 Before you make anything, read the section for it:
 
 - **[The logo](logo.md):** the one logo, its approved versions, clear space, minimum sizes, misuses.
-- **[The doorman](doorman.md):** who he is and the one rule for every caption, how he's built, his eleven poses and when to use each, what he never does, the finish.
+- **[The doorman](doorman.md):** who he is and the one rule for every caption, how he's built, his twelve poses and when to use each, what he never does, the finish.
 - **[Using the brand](using-the-brand.md):** talks, posts, slides and community projects.
 
 ## Voice
@@ -53,7 +53,7 @@ Everything Napwake says follows six rules.
 - Use the plain words in scenes, captions, the waking page, launch posts and swag.
 - Use the product words in `kubectl napwake` output, reference docs, API fields and anything a user types or searches for.
 - Where both appear, plain first: "Asleep · paused".
-- The character is **the doorman**, and he is Napwake's doorman: the real component, a Service-level proxy, that holds the first request to a paused workload, wakes it, and shows browsers the waking page until it's Ready. When copy names him, he does only that. Everything else Napwake does is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms".
+- The character is **the doorman**, and he is Napwake's doorman: the real component, a Service-level proxy, that holds the first request to a paused workload, wakes it, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first, with a Wake it button. When copy names him, he does only that. Everything else Napwake does is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms".
 
 ## Doors as states
 

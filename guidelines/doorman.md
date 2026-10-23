@@ -18,7 +18,7 @@ Every drawing shows one thing Napwake really does. Only the door is the doorman'
 | The drawing | Caption it as | What Napwake does |
 |---|---|---|
 | Holding a door ajar, amber light on the floor | "The doorman holds the door while staging wakes." | Wake on request: the doorman holds the request, or shows browsers the waking page, until the workload is Ready. |
-| A hand flat on a shut door, turned to you, one brow up | "The doorman asks before waking it." | Click to wake: on a public preview, a browser gets a Wake it button, and only a person's click wakes it. Robots are turned away. |
+| A hand flat on a shut door, turned to you, one lid raised | "The doorman asks before waking it." | Click to wake: on a public preview, a browser gets a Wake it button, and only a person's click wakes it. Robots are turned away. |
 | A hand on the light switch of an empty room | "Napwake turns off the lights in empty rooms." | Pause: after `idleAfter` with no activity, the workload is scaled to zero. Nothing in the room is thrown out. |
 | Reading the morning list | "Napwake wakes rooms before the team arrives." | `autoResume`: the forecast wakes workloads 15 minutes before a busy hour. |
 | Walking the corridor with a clipboard | "Napwake checks which rooms are empty." | `kubectl napwake scan`, with nothing installed, and dry-run. |
@@ -56,7 +56,7 @@ His face follows the rooms he minds. Expression lives in the lids, their tilt, w
 |---|---|---|---|
 | Resting his eyes | 1 | Every room asleep; empty states | rest |
 | Heavy lids | about 0.6 | A quiet night, a few rooms awake | list, lights, watch |
-| On duty | about 0.5 | His default | duty, door, rounds, point, tip |
+| On duty | about 0.5 | His default | duty, door, ask, rounds, point, tip |
 | Wide awake | 0.15 to 0.2 | Something needs you; errors only | note |
 
 ## Construction
