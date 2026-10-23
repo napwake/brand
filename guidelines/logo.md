@@ -64,4 +64,4 @@ The misuse files in [`logo-rules/`](logo-rules/) show what not to do. Never use 
 
 ## Marks and licences
 
-"Napwake", the logo and wordmark, and the doorman's head as used in the logo are the project's marks, owned by Tobi Okedeji and governed by [TRADEMARKS.md](../TRADEMARKS.md): use them unchanged to refer to Napwake, never as the name or logo of something else. The doorman illustrations (poses, door scenes, stickers) are licensed [CC BY 4.0](../illustrations/LICENSE), as the Go gopher is, so anyone can use them with the credit "Doorman illustrations by Napwake, CC BY 4.0".
+"Napwake", the logo and wordmark, and the doorman's head as used in the logo are the project's marks. [TRADEMARKS.md](../TRADEMARKS.md) governs them. Use them unchanged to refer to Napwake, never as the name or logo of something else. The doorman illustrations (poses, door scenes, stickers) are licensed [CC BY 4.0](../illustrations/LICENSE), as the Go gopher is, so anyone can use them with the credit "Doorman illustrations by Napwake, CC BY 4.0".
