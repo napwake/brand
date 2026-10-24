@@ -1,6 +1,6 @@
 # The doorman
 
-He is **Napwake's doorman**. In the product, the doorman is a real component: it holds the first request to a paused workload, wakes the workload, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first: a browser gets a Wake it button, and only a person's click wakes it. The character is that doorman, drawn as a person. Copy calls him **the doorman**. He has no name, like the Go gopher.
+He is **Napwake's doorman**. In the product, the doorman is a real component: it holds the first request to a paused workload, wakes the workload, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first: a browser gets a Wake it button, and only a click on the page wakes it. The character is that doorman, drawn as a person. Copy calls him **the doorman**. He has no name, like the Go gopher.
 
 **One rule keeps every caption true: when copy names the doorman, he only holds the door, wakes a workload on the first request, or asks before waking it.** Everything else Napwake does (pausing, the forecast, scan, dry-run, the activity clock, conditions) is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms", never "the doorman turns off the lights". He is never another component.
 
@@ -18,7 +18,7 @@ Every drawing shows one thing Napwake really does. Only the door is the doorman'
 | The drawing | Caption it as | What Napwake does |
 |---|---|---|
 | Holding a door ajar, amber light on the floor | "The doorman holds the door while staging wakes." | Wake on request: the doorman holds the request, or shows browsers the waking page, until the workload is Ready. |
-| A hand flat on a shut door, turned to you, one lid raised | "The doorman asks before waking it." | Click to wake: on a public preview, a browser gets a Wake it button, and only a person's click wakes it. Robots are turned away. |
+| A hand flat on a shut door, turned to you, one lid raised | "The doorman asks before waking it." | Click to wake: on a public preview set to ask, a browser gets a Wake it button, and only a click on the page wakes it. Crawlers, scanners and API calls wake nothing. |
 | A hand on the light switch of an empty room | "Napwake turns off the lights in empty rooms." | Pause: after `idleAfter` with no activity, the workload is scaled to zero. Nothing in the room is thrown out. |
 | Reading the morning list | "Napwake wakes rooms before the team arrives." | `autoResume`: the forecast wakes workloads 15 minutes before a busy hour. |
 | Walking the corridor with a clipboard | "Napwake checks which rooms are empty." | `kubectl napwake scan`, with nothing installed, and dry-run. |
