@@ -48,6 +48,7 @@
   --scene-green: #2e9f62;
   --scene-green-glow: #7fd3a0;
   --scene-label: #5e6764;
+  --scene-guest: var(--night);
   --note-pin: #d9443a;
   --doorman-coat: var(--coat);
   --doorman-coat-deep: var(--coat-deep);
@@ -103,6 +104,8 @@
   --ease-breathe: ease-in-out;
   --duration-ui-short: 300ms;
   --duration-ui-long: 600ms;
+  --duration-stagger: 340ms;
+  --duration-beat: 1.2s;
   --duration-breathe: 2.8s;
   --duration-ambient: 6s;
 }
