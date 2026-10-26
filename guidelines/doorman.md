@@ -50,12 +50,12 @@ A new pose shows a new real job. If you draw one, keep the construction below ex
 
 ## Expressions
 
-His face follows the rooms he minds. Expression lives in the lids, their tilt, where he looks, his lean and his arms: **no mouth and no eyebrows, ever.**
+His face follows the doors he minds. Expression lives in the lids, their tilt, where he looks, his lean and his arms: **no mouth and no eyebrows, ever.**
 
 | Face | Lids (0 open, 1 shut) | When | Poses |
 |---|---|---|---|
-| Resting his eyes | 1 | Every room asleep; empty states | rest |
-| Heavy lids | about 0.6 | A quiet night, a few rooms awake | list, lights, watch |
+| Resting his eyes | 1 | Every workload asleep, and empty states | rest |
+| Heavy lids | about 0.6 | A quiet night, a few workloads awake | list, lights, watch |
 | On duty | about 0.5 | His default | duty, door, ask, rounds, point, tip |
 | Wide awake | 0.15 to 0.2 | Something needs you; errors only | note |
 
