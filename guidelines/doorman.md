@@ -2,7 +2,7 @@
 
 He is **Napwake's doorman**. In the product, the doorman is a real component: it holds the first request to a paused workload, wakes the workload, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first: a browser gets a Wake it button, and only a click on the page wakes it. The character is that doorman, drawn as a person. Copy calls him **the doorman**. He has no name, like the Go gopher.
 
-**One rule keeps every caption true: when copy names the doorman, he only holds the door, wakes a workload on the first request, or asks before waking it.** Everything else Napwake does (pausing, the forecast, scan, dry-run, the activity clock, conditions) is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms", never "the doorman turns off the lights". He is never another component.
+**One rule keeps every caption true: when copy names the doorman, he only holds the door, wakes a workload on the first request, or asks before waking it.** Everything else Napwake does (pausing, the forecast, scan, dry-run, the activity clock, conditions) is said as "Napwake …", even when he's pictured: "Napwake pauses an idle workload", never "the doorman pauses it". He is never another component.
 
 ## Personality: dependable, dry, unflappable
 
@@ -19,10 +19,10 @@ Every drawing shows one thing Napwake really does. Only the door is the doorman'
 |---|---|---|
 | Holding a door ajar, amber light on the floor | "The doorman holds the door while staging wakes." | Wake on request: the doorman holds the request, or shows browsers the waking page, until the workload is Ready. |
 | A hand flat on a shut door, turned to you, one lid raised | "The doorman asks before waking it." | Click to wake: on a public preview set to ask, a browser gets a Wake it button, and only a click on the page wakes it. Crawlers, scanners and API calls wake nothing. |
-| A hand on the light switch of an empty room | "Napwake turns off the lights in empty rooms." | Pause: after `idleAfter` with no activity, the workload is scaled to zero. Nothing in the room is thrown out. |
-| Reading the morning list | "Napwake wakes rooms before the team arrives." | `autoResume`: the forecast wakes workloads 15 minutes before a busy hour. |
-| Walking the corridor with a clipboard | "Napwake checks which rooms are empty." | `kubectl napwake scan`, with nothing installed, and dry-run. |
-| A pocket watch in his hand | "Napwake counts how long a room has been idle." | The activity clock and `idleAfter`. |
+| A hand on a switch | "Napwake pauses an idle workload." | Pause: after `idleAfter` with no activity, the workload is scaled to zero. Nothing is deleted. |
+| Reading the morning list | "Napwake wakes workloads before the team arrives." | `autoResume`: the forecast wakes workloads 15 minutes before a busy hour. |
+| Walking the corridor with a clipboard | "Napwake checks what's idle, before anything pauses." | `kubectl napwake scan`, with nothing installed, and dry-run. |
+| A pocket watch in his hand | "Napwake counts how long a workload has been idle." | The activity clock and `idleAfter`. |
 | A note pinned on a door | "Napwake pins a note: something needs you." | A condition under "Needs attention" in `kubectl napwake status`. |
 
 **He never** blocks a door, holds money, bins, crushes or erases anything (Napwake never deletes a workload or its data), carries a badge or a weapon, or wears a pillbox hat or a bow tie. He faces front, left or right, never from behind, never lying down. No coins in his hands. Paused workloads free what they requested, and the node autoscaler turns that into a smaller bill.
@@ -34,15 +34,15 @@ Each pose is a real job or a screen Napwake has to fill. The files are [`../illu
 | File | Pose | Use it for |
 |---|---|---|
 | `doorman-duty` | On duty | Napwake, running. The default: about pages, the sticker, the awake door hanger. |
-| `doorman-door` | Holds the door | The doorman waking a room when someone knocks: the waking page, the README header, the launch card, the docs hero. The only pose at a waking door. |
-| `doorman-ask` | Asks at the door | The doorman asking before he wakes a room: the asleep page, with its Wake it button, for a public preview. With Holds the door, the only poses whose captions give him the job. |
-| `doorman-lights` | Lights out | Napwake putting an empty room to sleep: pausing. |
-| `doorman-list` | The morning list | Napwake waking rooms before the team arrives: `autoResume`, the forecast. |
-| `doorman-rounds` | Does the rounds | Napwake checking which rooms are empty: `scan`, dry-run. |
-| `doorman-watch` | Checks his watch | How long a room has been idle, as Napwake counts it: `idleAfter`, the activity clock. |
+| `doorman-door` | Holds the door | The doorman waking a workload on the first request: the waking page, the README header, the launch card, the docs hero. The only pose at a waking door. |
+| `doorman-ask` | Asks at the door | The doorman asking before he wakes a workload: the asleep page, with its Wake it button, for a public preview. With Holds the door, the only poses whose captions give him the job. |
+| `doorman-lights` | At the switch | Napwake pausing an idle workload. |
+| `doorman-list` | The morning list | Napwake waking workloads before the team arrives: `autoResume`, the forecast. |
+| `doorman-rounds` | With a clipboard | Napwake checking what's idle, before anything pauses: `scan`, dry-run. |
+| `doorman-watch` | Checks his watch | How long a workload has been idle, as Napwake counts it: `idleAfter`, the activity clock. |
 | `doorman-note` | Pins a note | Something needs you: errors, conditions, "Needs attention". |
 | `doorman-rest` | Resting his eyes | Everything is asleep: empty states, the asleep door hanger. |
-| `doorman-shrug` | No room by that name | Page not found. |
+| `doorman-shrug` | Shrugs | Page not found. |
 | `doorman-point` | This way | Getting started, next steps. |
 | `doorman-tip` | Tips his hat | Thanks, and what's new: release notes, a launch thank-you. |
 
