@@ -25,7 +25,7 @@ Every drawing shows one thing Napwake really does. Only the door is the doorman'
 | A pocket watch in his hand | "Napwake counts how long a room has been idle." | The activity clock and `idleAfter`. |
 | A note pinned on a door | "Napwake pins a note: something needs you." | A condition under "Needs attention" in `kubectl napwake status`. |
 
-**He never** blocks a door, holds money, bins, crushes or erases anything (Napwake never deletes a workload or its data), carries a badge or a weapon, or wears a pillbox hat or a bow tie. He faces front, left or right; never from behind, never lying down. No coins in his hands: dark rooms free what they requested, and the node autoscaler turns that into a smaller bill.
+**He never** blocks a door, holds money, bins, crushes or erases anything (Napwake never deletes a workload or its data), carries a badge or a weapon, or wears a pillbox hat or a bow tie. He faces front, left or right, never from behind, never lying down. No coins in his hands. Paused workloads free what they requested, and the node autoscaler turns that into a smaller bill.
 
 ## The twelve poses
 
@@ -73,7 +73,7 @@ His face follows the rooms he minds. Expression lives in the lids, their tilt, w
 ## One idea per scene
 
 - One idea per picture, captioned in plain words (asleep, waking up, awake), readable without knowing Kubernetes.
-- He stands beside the waking door with his hand on its leaf; he never stands in a doorway or in front of a door.
+- He stands beside the waking door with his hand on its leaf. He never stands in a doorway or in front of a door.
 - Light comes from the doors. The far side of his coat falls into shade; his shadow falls away from the door.
 - One door per workload, each in its real state.
 

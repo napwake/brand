@@ -1,6 +1,6 @@
 # Using the brand
 
-For talks, posts, videos, slides and projects that work with Napwake. The [trademark policy](../TRADEMARKS.md) covers the name and logo; the [illustration licence](../illustrations/LICENSE) covers the doorman illustrations.
+For talks, posts, videos, slides and projects that work with Napwake. The [trademark policy](../TRADEMARKS.md) covers the name and logo, and the [illustration licence](../illustrations/LICENSE) covers the doorman illustrations.
 
 ## The words
 
@@ -21,7 +21,7 @@ Quote them as they are. If you write your own, the six voice rules in the [guide
 ## Posts, articles and videos
 
 - Credit the illustrations: "Doorman illustrations by Napwake, CC BY 4.0", linked to https://github.com/napwake/brand.
-- "Works with Napwake" and "for Napwake" are fine for your project; a name or logo that looks like Napwake's isn't.
+- "Works with Napwake" and "for Napwake" are fine for your project. A name or logo that looks like Napwake's isn't.
 - When you compare Napwake with other tools, say plainly where another fits better. That's how we write about them too.
 
 ## Stickers

@@ -9,7 +9,7 @@ The Napwake logo, the doorman, the brand guidelines, and what you need to show N
 | [`logo/`](logo/) | The Napwake logo, wordmark, mark and avatar, light, dark and one-colour | Unchanged, to refer to Napwake. See [TRADEMARKS.md](TRADEMARKS.md) |
 | [`illustrations/`](illustrations/) | The doorman's poses, the door glyphs, six UI icons, scenes and a sticker | Freely, even commercially, with credit, under [CC BY 4.0](illustrations/LICENSE) |
 | [`guidelines/`](guidelines/README.md) | The brand book: the idea, voice, the logo, the doorman, colour, type, motion, and [using the brand](guidelines/using-the-brand.md) | Read it before you make anything |
-| [`tokens/`](tokens/) | Every colour, light and dark, with type, spacing, radius, shadow and timing, as `tokens.json` and `tokens.css` | Freely, under CC BY 4.0 like the illustrations |
+| [`tokens/`](tokens/) | Every colour, light and dark, with type, spacing, radius, shadow and timing, as `tokens.json` and `tokens.css` | Freely, under [CC BY 4.0](illustrations/LICENSE), like the illustrations |
 
 **Credit line for the illustrations:** "Doorman illustrations by Napwake, CC BY 4.0", linked to this repository.
 
