@@ -26,4 +26,4 @@ Quote them as they are. If you write your own, the six voice rules in the [guide
 
 ## Stickers
 
-[`../illustrations/stickers/sticker.svg`](../illustrations/stickers/sticker.svg) is a die-cut sticker: a lit doorway and "Staging sleeps. The doorman doesn't." Print it for a meetup; credit isn't needed on the sticker itself.
+[`../illustrations/stickers/sticker.svg`](../illustrations/stickers/sticker.svg) is a die-cut sticker: a lit doorway and "Staging sleeps. The doorman doesn't." Print it for a meetup. Credit isn't needed on the sticker itself.

@@ -53,15 +53,15 @@ Everything Napwake says follows six rules.
 - Use the plain words in scenes, captions, the waking page, launch posts and swag.
 - Use the product words in `kubectl napwake` output, reference docs, API fields and anything a user types or searches for.
 - Where both appear, plain first: "Asleep · paused".
-- The character is **the doorman**, and he is Napwake's doorman: the real component, a Service-level proxy, that holds the first request to a paused workload, wakes it, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first, with a Wake it button. When copy names him, he does only that. Everything else Napwake does is said as "Napwake …", even when he's pictured: "Napwake turns off the lights in empty rooms".
+- The character is **the doorman**, and he is Napwake's doorman: the real component, a Service-level proxy, that holds the first request to a paused workload, wakes it, and shows browsers the waking page until it's Ready. On a public preview set to ask, it asks first, with a Wake it button. When copy names him, he does only that. Everything else Napwake does is said as "Napwake …", even when he's pictured: "Napwake pauses the workloads nobody's using".
 
 ## Doors as states
 
-- Every room is an arched door: round top, flat bottom, the same arch as the wordmark's counters.
+- Every workload is an arched door: round top, flat bottom, the same arch as the wordmark's counters.
 - Asleep: shut, slate (`glyph-slate`, `scene-leaf`). Waking up: ajar, the room in Lamp light (`scene-room-amber`), an amber wedge on the floor, and the only door with the doorman's hand on it. Awake: wide open, the room lit green (`scene-room-green`), a green lamp over the door (`scene-green`). Needs you: shut, a note pinned on it (`note-pin`). It's a note, never an alarm bell, and it says what to fix.
 - Use the door glyphs in [`../illustrations/doors/`](../illustrations/doors/) (`door-<state>.svg` on light, `door-<state>-dark.svg` on dark).
 - Always put the state's word beside its door. Colour is never the only signal: waking's amber outline is 1.71:1 on Paper, and awake and error are equally light.
-- His face follows the rooms he minds: resting his eyes when every room is asleep, heavy lids on a quiet night, on duty by default, wide awake only when something needs you.
+- His face follows the doors he minds: resting his eyes when every workload is asleep, heavy lids on a quiet night, on duty by default, wide awake only when something needs you.
 - In a scene, show one door per workload, each in its real state.
 
 ## Colour
@@ -96,7 +96,7 @@ A doorman's coat, the light from a door, and the dark corridor.
 
 - Corridors, lobbies and doorways at night: the doorman, doors, a floor. Props only when the job needs them: a list, a clipboard, a switch, a watch, a note.
 - One idea per drawing, captioned in plain words. One true joke at most.
-- Light comes from doors. The far side of the coat falls into shade; his shadow falls away from the door.
+- Light comes from doors. The far side of the coat falls into shade, and his shadow falls away from the door.
 - Illustrations get the print finish: a slight wobble on every edge and a grain inside the fills ([doorman.md](doorman.md#the-finish) has the filter). Never on the logo, the favicon, door glyphs or UI icons.
 - No coins, bins, clouds, moons or Zzz, and nothing being thrown out: Napwake never deletes anything.
 - Illustrations go on pages, cards, empty states and release notes, never inside documentation steps.

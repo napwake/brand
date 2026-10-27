@@ -1,6 +1,6 @@
 # The logo
 
-**There is one logo, and it is always the same drawing in the same colours.** It is the doorman's head and shoulders under his top hat (the symbol) beside the drawn wordmark, `napwake`. A small set of approved files covers every place it goes; nothing else is the logo. Never redraw it, re-colour it, re-pose it or retype it. The doorman's poses are illustrations, never the logo.
+**There is one logo, and it is always the same drawing in the same colours.** It is the doorman's head and shoulders under his top hat (the symbol) beside the drawn wordmark, `napwake`. A small set of approved files covers every place it goes, and nothing else is the logo. Never redraw it, re-colour it, re-pose it or retype it. The doorman's poses are illustrations, never the logo.
 
 ## The approved versions
 
@@ -35,7 +35,7 @@ Keep clear, on every side of a lockup, the height of the doorman's hat at that s
 | Horizontal lockup | 100 px wide |
 | Stacked lockup | 64 px wide |
 | Symbol | 24 px |
-| Below 24 px | the 16-pixel cut (`favicon-16.svg`, `favicon-16-dark.svg`); never a scaled-down symbol |
+| Below 24 px | the 16-pixel cut (`favicon-16.svg`, `favicon-16-dark.svg`), never a scaled-down symbol |
 
 At 16 px the brim, 12 units wider than the face on each side, still reads as a hat, not the lid of a jar or a bin.
 
@@ -43,9 +43,9 @@ At 16 px the brim, 12 units wider than the face on each side, still reads as a h
 
 [`logo-rules/symbol-construction.svg`](logo-rules/symbol-construction.svg) and [`wordmark-construction.svg`](logo-rules/wordmark-construction.svg) show it.
 
-- **Symbol:** a 96 grid. The hat tilts −5°; its brim is 68 wide, 12 past each side of the face. The face is 44 wide, the collar 50, the shoulders 72, cut by the bottom edge. Eyes: radius 7.5, centres 19.4 apart (0.17 and 0.44 of the face's width, as on the full figure). Two brass buttons and a braid tab on the shoulders.
-- **Wordmark:** filled outlines, drawn to sit with Big Shoulders Display, not typed in it. x-height 60, stems 12, ascender 22, descender 20. Every counter is a door arch (round top, flat bottom); the n is the open door. The a's bowl meets its stem below the top so the stem reads when small; the k's arm and leg end flat on the x-height and the baseline.
-- **Lockups:** in the horizontal lockup the symbol runs from the ascender's top to the baseline; in the stacked one it sits centred over the wordmark at 1.5 times the size.
+- **Symbol:** a 96 grid. The hat tilts −5°. Its brim is 68 wide, 12 past each side of the face. The face is 44 wide, the collar 50, the shoulders 72, cut by the bottom edge. Eyes: radius 7.5, centres 19.4 apart (0.17 and 0.44 of the face's width, as on the full figure). Two brass buttons and a braid tab on the shoulders.
+- **Wordmark:** filled outlines, drawn to sit with Big Shoulders Display, not typed in it. x-height 60, stems 12, ascender 22, descender 20. Every counter is a door arch (round top, flat bottom), and the n is the open door. The a's bowl meets its stem below the top so the stem reads when small. The k's arm and leg end flat on the x-height and the baseline.
+- **Lockups:** in the horizontal lockup the symbol runs from the ascender's top to the baseline. In the stacked one it sits centred over the wordmark at 1.5 times the size.
 
 ## Misuses
 
@@ -53,7 +53,7 @@ Never:
 
 - Give him a mouth, a smile, blush or eyebrows. He's calm, not cute. (`misuse-cute.svg`)
 - Give him a pillbox hat or a bow tie: that's another open-source project's cat, CNCF Porter's. (`misuse-pillbox.svg`)
-- Stretch, squash or re-colour the lockup outside the palette; never a gradient, never purple-to-blue. (`misuse-stretch.svg`)
+- Stretch, squash or re-colour the lockup outside the palette. Never a gradient, never purple-to-blue. (`misuse-stretch.svg`)
 - Use a pose, a different expression or a different hat as the logo.
 - Set "napwake" in a font in place of the drawn wordmark.
 - Put the colour lockup on Coat, a photo or a busy picture: use one colour there.

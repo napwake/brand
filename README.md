@@ -15,6 +15,6 @@ The Napwake logo, the doorman, the brand guidelines, and what you need to show N
 
 **The doors:** closed and dark is asleep, held ajar with amber light is waking up, open and lit green is awake.
 
-Napwake is open source under Apache 2.0. Neither that licence nor CC BY 4.0 covers the name or the logo; [TRADEMARKS.md](TRADEMARKS.md) does.
+Napwake is open source under Apache 2.0. Neither that licence nor CC BY 4.0 covers the name or the logo. [TRADEMARKS.md](TRADEMARKS.md) does.
 
 Questions, or something you'd like to do that isn't covered here: open an issue.

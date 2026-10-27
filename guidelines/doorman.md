@@ -57,7 +57,7 @@ His face follows the doors he minds. Expression lives in the lids, their tilt, w
 | Resting his eyes | 1 | Every workload asleep, and empty states | rest |
 | Heavy lids | about 0.6 | A quiet night, a few workloads awake | list, lights, watch |
 | On duty | about 0.5 | His default | duty, door, ask, rounds, point, tip |
-| Wide awake | 0.15 to 0.2 | Something needs you; errors only | note |
+| Wide awake | 0.15 to 0.2 | Something needs you, errors only | note |
 
 ## Construction
 
@@ -74,7 +74,7 @@ His face follows the doors he minds. Expression lives in the lids, their tilt, w
 
 - One idea per picture, captioned in plain words (asleep, waking up, awake), readable without knowing Kubernetes.
 - He stands beside the waking door with his hand on its leaf. He never stands in a doorway or in front of a door.
-- Light comes from the doors. The far side of his coat falls into shade; his shadow falls away from the door.
+- Light comes from the doors. The far side of his coat falls into shade, and his shadow falls away from the door.
 - One door per workload, each in its real state.
 
 ## In the dark
@@ -83,7 +83,7 @@ On Night and in dark scenes, draw him in the dark palette, so he reads: `doorman
 
 ## The finish
 
-Illustrations get a print finish: a slight wobble on every edge and a grain inside the fills, so the doorman looks printed, not vector-flat. Wobble 1.8 and grain 0.16 by default; scenes use 1.4 and 0.13, cards and the brand book 1.3 and 0.13 to 0.14. A scene's wall gets its own fine grain at opacity `grain-light` (.07) or `grain-dark` (.22).
+Illustrations get a print finish: a slight wobble on every edge and a grain inside the fills, so the doorman looks printed, not vector-flat. Wobble 1.8 and grain 0.16 by default. Scenes use 1.4 and 0.13, and cards and the brand book 1.3 and 0.13 to 0.14. A scene's wall gets its own fine grain at opacity `grain-light` (.07) or `grain-dark` (.22).
 
 **Never** put the finish on the logo, the favicon, door glyphs or UI icons.
 
